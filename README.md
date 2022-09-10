@@ -16,8 +16,6 @@ You must have Python3 and NodeJS installed in your system
 
 2. Then run the following commands
 - `npm i`
-- `npm install -D tailwindcss postcss autoprefixer`
-- `npx tailwindcss init -p`
 - `pip install django`
 - `pip install django_nextjs`
 
