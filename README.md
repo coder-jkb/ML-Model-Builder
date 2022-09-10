@@ -15,9 +15,7 @@ You must have Python3 and NodeJS installed in your system
 1. Clone this repository using the command `git clone https://github.com/coder-jkb/ML-Model-Builder.git`
 
 2. Then run the following commands
-- `npm i concurrently`
-- `npm install -D tailwindcss postcss autoprefixer`
-- `npx tailwindcss init -p`
+- `npm i`
 - `pip install django`
 - `pip install django_nextjs`
 
