@@ -15,9 +15,10 @@ Clone this repository using command `git clone https://github.com/coder-jkb/ML-M
 
 Then run the following commands
 `npm i concurrently`
+`npm install -D tailwindcss postcss autoprefixer`
+`npx tailwindcss init -p`
 `pip install django`
 `pip install django_nextjs`
-
 ---
 
 ### Starting the developement server
