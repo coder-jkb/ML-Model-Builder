@@ -18,6 +18,8 @@ Then run the following commands
 `pip install django`
 `pip install django_nextjs`
 
+---
+
 ### Starting the developement server
 Go to the directory `modelbuilder-backend` and run `python manage.py runserver`
 Open a new terminal and navigate to directory `modelbuilder-frontend` and run `npm run dev` or `npm run start`
