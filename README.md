@@ -9,9 +9,9 @@ A web application where you build ML models without knowing how to code.
 
 
 ## Installations
-You must have python3 and node installed in your system
+You must have Python3 and Node.js installed in your system
 
-Clone this repository using command `git clone https://github.com/coder-jkb/ML-Model-Builder.git`
+Clone this repository using the command `git clone https://github.com/coder-jkb/ML-Model-Builder.git`
 
 Then run the following commands
 `npm i concurrently`
@@ -19,7 +19,8 @@ Then run the following commands
 `npx tailwindcss init -p`
 `pip install django`
 `pip install django_nextjs`
+
 ---
 
-### Starting the developement server
+### Starting the development server
 Go to the directory `modelbuilder-frontend` and run `npm run both`
