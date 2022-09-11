@@ -1,11 +1,23 @@
-// import Head from 'next/head'
-// import Image from 'next/image'
-// import styles from '../styles/Home.module.css'
-
-export default function Home() {
+import Contact from "./components/Contact";
+import Feature from "./components/Features";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Team from "./components/Team";
+export default function Index() {
   return (
-    <div className='bg-blue-600 text-center font-bold my-10'>
-      This is Home Page
-    </div>
+    <>
+      <Header />
+      <hr />
+      <Hero />
+      <hr />
+      <Feature />
+      <hr />
+      <Team />
+      <hr />
+      <Contact />
+      <hr />
+      <Footer />
+    </>
   )
 }
