@@ -9,8 +9,8 @@ const Team = () => {
                     <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven&apos;t heard of them.</p>
                 </div>
-                <div className="flex flex-wrap -m-4">
-                    <div className="p-4 lg:w-1/2">
+                <div className="flex flex-wrap -m-4 justify-center">
+                    <div className="p-4 lg:w-5/12">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                             <FaUserAlt className="text-3xl" />
                             <div className="flex-grow sm:pl-8">
@@ -30,7 +30,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 lg:w-1/2">
+                    <div className="p-4 lg:w-5/12">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                             <FaUserAlt className="text-3xl" />
                             <div className="flex-grow sm:pl-8">
@@ -50,7 +50,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 lg:w-1/2">
+                    <div className="p-4 lg:w-5/12">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                             <FaUserAlt className="text-3xl" />
                             <div className="flex-grow sm:pl-8">
@@ -70,7 +70,7 @@ const Team = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 lg:w-1/2">
+                    <div className="p-4 lg:w-5/12">
                         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                             <FaUserAlt className="text-3xl" />
                             <div className="flex-grow sm:pl-8">
