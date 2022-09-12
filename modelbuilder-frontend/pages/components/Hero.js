@@ -12,7 +12,7 @@ const Hero = () => {
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                         What is 
                         <br className="hidden lg:inline-block" />
-                        <span class="text-indigo-800/[0.85]"> ModelUp.ai</span> 
+                        <span className="text-indigo-800/[0.85]"> ModelUp.ai</span> 
                     </h1>
                     <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
                     <div className="flex justify-center">
