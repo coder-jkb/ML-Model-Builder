@@ -1,6 +1,6 @@
 import React from "react";
-import { MdOutlineAutoGraph } from "react-icons/md";
 import { ImGithub } from "react-icons/im";
+import { GrLinkTop } from "react-icons/gr";
 import Image from "next/image";
 
 const Footer = () => {
@@ -10,10 +10,14 @@ const Footer = () => {
                 <Image src="/ModelUp_logo.png" className="rounded-lg" alt="logo" width={100} height={50} />
                 <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 ModelUp
                 </p>
+                <button className="text-gray-500 mx-5">
+                    <ImGithub className="text-2xl" />
+                </button>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-                    <button className="text-gray-500">
-                        <ImGithub className="text-2xl" />
-                    </button>
+                    Scroll To Top
+                    <a href='#' className="text-indigo-800 mx-5">
+                        <GrLinkTop className="text-2xl" />
+                    </a>
                 </span>
             </div>
         </footer>
