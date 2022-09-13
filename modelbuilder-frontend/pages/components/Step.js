@@ -7,7 +7,7 @@ import React from "react";
 
 const Step = () => {
     return (
-        <section id='steps' className="text-white bg-gray-900 body-font">
+        <section id='steps' className="text-white bg-gray-800 body-font">
             <div className="text-center pt-10 -mb-10">
                 <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">Follow these simple steps or let it Automate itself</h1>
             </div>

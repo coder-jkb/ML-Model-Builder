@@ -5,13 +5,14 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Step from "./components/Step";
 import Team from "./components/Team";
+
 export default function Index() {
   return (
     <>
       <Header />
       <Hero />
-      <Step/>
       <Feature />
+      <Step />
       <Team />
       <Contact />
       <Footer />

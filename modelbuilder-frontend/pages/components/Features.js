@@ -3,7 +3,7 @@ import React from "react";
 const Content = () => {
     return (
         // changed indigo-800 to indigo-500
-        <section id='features' className="bg-gray-800 text-slate-200 body-font">
+        <section id='features' className="bg-gray-900 text-slate-200 body-font">
             <div className="container px-5 py-10 mx-auto">
                 <div className="text-center mb-20">
                     <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">Features of ModelUp</h1>

@@ -10,7 +10,7 @@ const Header = () => {
           <a href='#steps' className="py-1 px-2 cursor-pointer text-indigo-500 hover:border-b-2 hover:border-indigo-500">Steps</a>
           <a href='#features' className="py-1 px-2 cursor-pointer text-indigo-500 hover:border-b-2 hover:border-indigo-500">Features</a>
           <a href='#contact' className="py-1 px-2 cursor-pointer text-indigo-500 hover:border-b-2 hover:border-indigo-500">Contact us</a>
-          <button className="flex mx-auto text-white bg-indigo-500/[0.85] border-0 py-2 px-2 focus:outline-none hover:bg-indigo-500/[0.95] rounded text-lg">Start Modelling</button>
+          {/* <button className="flex mx-auto text-white bg-indigo-500/[0.85] border-0 py-2 px-2 focus:outline-none hover:bg-indigo-500/[0.95] rounded text-lg">Start Modelling</button> */}
         </nav>
       </div>
     </header>
