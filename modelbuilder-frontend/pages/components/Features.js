@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = () => {
     return (
-        <section id='features' className="text-gray-600 body-font">
+        <section name='features' className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">
                 <div className="text-center mb-20">
                     <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Features of ModelUp</h1>

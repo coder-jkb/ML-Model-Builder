@@ -7,8 +7,8 @@ import React from "react";
 
 const Step = () => {
     return (
-        <section id='steps' className="text-gray-600 body-font">
-            <div className="text-center mt-10 -mb-10">
+        <section className="text-gray-600 body-font">
+            <div name='steps' className="text-center mt-10 -mb-10">
                 <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Follow these simple steps or let it Automate itself</h1>
             </div>
             <div className="container px-5 py-24 mx-auto flex flex-wrap">
