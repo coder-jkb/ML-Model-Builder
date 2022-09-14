@@ -14,25 +14,25 @@ import { FaRegComments } from "react-icons/fa";
 import { BiMessageSquareDots } from "react-icons/bi";
 
 function SideNavbar() {
-    const [toggle, setToggle] = useState('hidden');
+    const [toggle, setToggle] = useState('-left-96');
     const openLeftSide = () => {
-        if (toggle === 'hidden') {
-            setToggle('')
+        if (toggle === 'left-0') {
+            setToggle('-left-96')
         }
         else {
-            setToggle('hidden')
+            setToggle('left-0')
         }
     }
 
     return (
         <div>
-            <button onClick={openLeftSide} className="absolute top-4 left-4 inline-flex items-center peer justify-center rounded-md p-2 text-gray-800 hover:bg-gray-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white group">
+            <button onClick={openLeftSide} className="absolute top-6 left-6 inline-flex items-center peer justify-center rounded-md p-2 text-gray-800 hover:bg-gray-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white group">
                 <GiHamburgerMenu
                     className="block h-6 w-6"
                     aria-hidden="true"
                 />
             </button>
-            <div className={`${toggle} p-6 w-1/2 h-screen bg-white z-20 fixed top-0 -left-96 lg:left-0 lg:w-60 peer-focus:left-0 ease-in-out duration-500`}>
+            <div className={`${toggle} z-50 p-6 w-1/3 h-screen bg-white fixed top-0 lg:w-60 delay-100 ease-in-out duration-500`}>
                 <div className="flex flex-col justify-start item-center">
                     <h1 className="text-base flex justify-between items-center text-center cursor-pointer font-bold text-blue-900 border-b border-gray-100 pb-4 w-full">
                         {/* <div className=""> */}
