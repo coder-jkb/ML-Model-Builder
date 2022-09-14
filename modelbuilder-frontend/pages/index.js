@@ -10,11 +10,17 @@ export default function Index() {
   return (
     <>
       <Header />
+      <hr />
       <Hero />
+      <hr />
       <Feature />
+      <hr />
       <Step />
+      <hr />
       <Team />
+      <hr />
       <Contact />
+      <hr />
       <Footer />
     </>
   )

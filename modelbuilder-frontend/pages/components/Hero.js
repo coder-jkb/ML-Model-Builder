@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <section id='#' className="text-white bg-gray-800 body-font">
+        <section id='#' className="text-white bg-gray-800 body-font -mt-1">
             <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 {/* Removed border of image */}
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 ml-5">

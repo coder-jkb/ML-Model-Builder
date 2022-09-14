@@ -13,12 +13,6 @@ const Footer = () => {
                 <button className="text-slate-100 mx-5">
                     <ImGithub className="text-2xl" />
                 </button>
-                <span className="text-lg inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-                    Scroll To Top
-                    <a href='#' className="text-indigo-800 mx-5">
-                        <GrLinkTop className="text-4xl bg-slate-400 p-2 rounded-lg" />
-                    </a>
-                </span>
             </div>
         </footer>
     );
