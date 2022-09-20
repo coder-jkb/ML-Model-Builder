@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-scroll";
 const Header = () => {
   return (
-    <header className="md:fixed md:justify-center md:w-11/12 md:ml-16 md:z-50 text-white bg-gradient-to-b from-slate-900 to-slate-700 body-font bg-slate-900">
+    <header className="md:fixed md:justify-center md:w-full md:z-50 text-white body-font bg-slate-900">
       <div className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
         <Image src="/ModelUp_logo.png" className="rounded-lg" alt="logo" width={140} height={65} />
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center space-x-3">
