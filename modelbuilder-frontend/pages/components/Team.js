@@ -16,7 +16,7 @@ const Team = () => {
                             <FaUserAlt className="text-4xl" />
                             <div className="w-full">
                                 <h2 className="title-font font-medium text-lg text-white">Jay Bhanushali</h2>
-                                <h3 className="text-slate-100 mb-3">UI Developer</h3>
+                                <h3 className="text-slate-100 mb-3">Backend Developer</h3>
                                 <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
                                 <span className="inline-flex space-x-5">
                                     <a className="text-slate-100">

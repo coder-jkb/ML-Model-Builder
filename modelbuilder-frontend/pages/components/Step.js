@@ -22,7 +22,7 @@ const Step = () => {
                             <GiPieChart className="text-4xl text-indigo-800/[0.85]" />
                         </div>
                         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 className="font-medium title-font text-white mb-1 text-xl">Do Exploatory Data Analysis</h2>
+                            <h2 className="font-medium title-font text-white mb-1 text-xl">Exploatory Data Analysis</h2>
                             <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const Step = () => {
                             <GiCubes className="text-4xl text-indigo-800/[0.85]" />
                         </div>
                         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 className="font-medium title-font text-white mb-1 text-xl">Do Data Preprocessing</h2>
+                            <h2 className="font-medium title-font text-white mb-1 text-xl">Data Preprocessing</h2>
                             <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Step = () => {
                             <IoMdAnalytics className="text-4xl text-indigo-800/[0.85]" />
                         </div>
                         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 className="font-medium title-font text-white mb-1 text-xl">Do Model Building</h2>
+                            <h2 className="font-medium title-font text-white mb-1 text-xl">Model Building</h2>
                             <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const Step = () => {
                             <GiSettingsKnobs className="text-4xl text-indigo-800/[0.85]" />
                         </div>
                         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 className="font-medium title-font text-white mb-1 text-xl">Do Hyperparameter Tuning</h2>
+                            <h2 className="font-medium title-font text-white mb-1 text-xl">Hyperparameter Tuning</h2>
                             <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ const Step = () => {
                             <TbChartInfographic className="text-4xl text-indigo-800/[0.85]" />
                         </div>
                         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 className="font-medium title-font text-white mb-1 text-xl">Do Model Comparison</h2>
+                            <h2 className="font-medium title-font text-white mb-1 text-xl">Model Comparison</h2>
                             <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                         </div>
                     </div>
