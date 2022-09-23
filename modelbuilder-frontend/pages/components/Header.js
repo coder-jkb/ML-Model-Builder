@@ -19,7 +19,7 @@ const Header = () => {
             // onSetActive={this.handleSetActive}
             // onSetInactive={this.handleSetInactive}
             ignoreCancelEvents={false}
-            spyThrottle={500} to='features' className="py-1 px-2 cursor-pointer text-indigo-500 hover:border-b-2 hover:border-indigo-500">Features</Link>
+            spyThrottle={500} to='features' className="py-1 px-2 text-lg cursor-pointer text-indigo-500 hover:border-b-2 hover:border-indigo-500">Features</Link>
           <Link activeClass="active"
             spy={true}
             smooth={true}
@@ -31,7 +31,7 @@ const Header = () => {
             // onSetActive={this.handleSetActive}
             // onSetInactive={this.handleSetInactive}
             ignoreCancelEvents={false}
-            spyThrottle={500} to='steps' className="py-1 px-2 cursor-pointer text-indigo-500 hover:border-b-2 hover:border-indigo-500">Steps</Link>
+            spyThrottle={500} to='steps' className="py-1 px-2 text-lg cursor-pointer text-indigo-500 hover:border-b-2 hover:border-indigo-500">Steps</Link>
           <Link activeClass="active"
             spy={true}
             smooth={true}
@@ -43,7 +43,7 @@ const Header = () => {
             // onSetActive={this.handleSetActive}
             // onSetInactive={this.handleSetInactive}
             ignoreCancelEvents={false}
-            spyThrottle={500} to='contact' className="py-1 px-2 cursor-pointer text-indigo-500 hover:border-b-2 hover:border-indigo-500">Contact us</Link>
+            spyThrottle={500} to='contact' className="py-1 px-2 text-lg cursor-pointer text-indigo-500 hover:border-b-2 hover:border-indigo-500">Contact us</Link>
           {/* <button className="flex mx-auto text-white bg-indigo-500/[0.85] border-0 py-2 px-2 focus:outline-none hover:bg-indigo-500/[0.95] rounded text-lg">Start Modelling</button> */}
         </nav>
       </div>

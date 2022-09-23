@@ -31,7 +31,7 @@ def user_login(request):
                 return HttpResponse("<h1>User doesnot exist!</h1>")
 
             username = User.objects.get(email=login_email).username
-            user = authenticate(username=username, password=login_email)
+            user = authenticate(username=username, password=login_password)
 
             '''
             if user is not None:
@@ -44,7 +44,6 @@ def user_login(request):
             if user is not None:
                 login(request, user)
                 return HttpResponse("<h1>Successfully logged in!</h1>")
-                # return render_nextjs_page_sync(request) 
             else:
                 return HttpResponse("<h1>Invalid email id or password!</h1>")
 
