@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Step from "./components/Step";
 import Team from "./components/Team";
+
 export default function Index() {
   return (
     <>
@@ -12,9 +13,9 @@ export default function Index() {
       <hr />
       <Hero />
       <hr />
-      <Step/>
-      <hr />
       <Feature />
+      <hr />
+      <Step />
       <hr />
       <Team />
       <hr />

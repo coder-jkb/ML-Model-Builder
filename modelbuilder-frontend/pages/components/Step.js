@@ -7,9 +7,9 @@ import React from "react";
 
 const Step = () => {
     return (
-        <section className="text-gray-600 body-font">
-            <div name='steps' className="text-center mt-10 -mb-10">
-                <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Follow these simple steps or let it Automate itself</h1>
+        <section name='steps' className="text-white bg-gray-800 body-font">
+            <div className="text-center pt-10 -mb-10">
+                <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">Follow these simple steps or let it Automate itself</h1>
             </div>
             <div className="container px-5 py-24 mx-auto flex flex-wrap">
                 <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
@@ -22,7 +22,7 @@ const Step = () => {
                             <GiPieChart className="text-4xl text-indigo-800/[0.85]" />
                         </div>
                         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Do Exploatory Data Analysis</h2>
+                            <h2 className="font-medium title-font text-white mb-1 text-xl">Exploatory Data Analysis</h2>
                             <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const Step = () => {
                             <GiCubes className="text-4xl text-indigo-800/[0.85]" />
                         </div>
                         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Do Data Preprocessing</h2>
+                            <h2 className="font-medium title-font text-white mb-1 text-xl">Data Preprocessing</h2>
                             <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Step = () => {
                             <IoMdAnalytics className="text-4xl text-indigo-800/[0.85]" />
                         </div>
                         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Do Model Building</h2>
+                            <h2 className="font-medium title-font text-white mb-1 text-xl">Model Building</h2>
                             <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const Step = () => {
                             <GiSettingsKnobs className="text-4xl text-indigo-800/[0.85]" />
                         </div>
                         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Do Hyperparameter Tuning</h2>
+                            <h2 className="font-medium title-font text-white mb-1 text-xl">Hyperparameter Tuning</h2>
                             <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ const Step = () => {
                             <TbChartInfographic className="text-4xl text-indigo-800/[0.85]" />
                         </div>
                         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Do Model Comparison</h2>
+                            <h2 className="font-medium title-font text-white mb-1 text-xl">Model Comparison</h2>
                             <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ const Step = () => {
                             <FaFileCode className="text-4xl text-indigo-800/[0.85]" />
                         </div>
                         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                            <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Get the Code</h2>
+                            <h2 className="font-medium title-font text-white mb-1 text-xl">Get the Code</h2>
                             <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
                         </div>
                     </div>
