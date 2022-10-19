@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
+import CSRFToken from "./CSRF_token";
 
 const Hero = () => {
     const [showSignUp, setShowSignUp] = useState('hidden');
@@ -43,6 +44,7 @@ const Hero = () => {
                         <div className="py-6 px-6 lg:px-8">
                             <h3 className="mb-4 text-xl font-medium text-gray-900 dark:text-white">Login to ModelUp</h3>
                             <form className="space-y-6" action="/login" method="POST">
+                                <CSRFToken />
                                 <div>
                                     <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
                                     <input type="email" name="login_email" id="login_email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required="" />
@@ -83,7 +85,7 @@ const Hero = () => {
                             <h3 className="mb-4 text-xl font-medium text-gray-900 dark:text-white">Create an account</h3>
 
                             <form className="space-y-6" action="/signup" method="POST">
-                                
+                                <CSRFToken />
                                 <div>
                                     <label htmlFor="firstname" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">First Name</label>
                                     <input type="text" name="firstname" id="firstname" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="John" required="" />

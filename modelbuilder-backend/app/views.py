@@ -11,7 +11,7 @@ from django.views.decorators.csrf import csrf_exempt
 def index(request):
     return render_nextjs_page_sync(request)
 
-@csrf_exempt
+# @csrf_exempt
 def user_login(request):
     if request.method == 'POST':
         form = LoginForm(request.POST)
@@ -50,7 +50,7 @@ def user_login(request):
     else:
         return HttpResponse("<h1>Error 404 - Page not found</h1>")
 
-@csrf_exempt
+# @csrf_exempt
 def user_signup(request):
     if request.method == "POST":
         form = SignupForm(request.POST)
